@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Welcome to Reinhardt Reunion Website!"
+image: /images/reinhardt-family-1.jpg
+caption: Reinhardt Family
+date:   2016-07-14
+tags: welcome Reinhardt-Family
+---
+
+The Reinhardt Reunion website is the companion to the <a href="https://www.facebook.com/groups/1671389859766863" target="_blank">Reinhardt Reunion Facebook group</a>, created for the descendants of Henry and Elizabeth Reinhardt's fourteen children: Olinda (Stenzel), Alvina (Michel), Pauline (Boxberger), Elfreda (Boxberger-Stenzel), Milton, Ella Nora (Eichman), Esther (Krug), Isabel (Eichman), Hattie (Wittman), Arnold, Vera (Hastings-Dawson), Martha (Dumler), Martin, and Marie (Burket).
