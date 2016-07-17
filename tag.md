@@ -14,6 +14,8 @@ Click on a tag to see relevant list of posts.
 {% endfor %}
 </ul>
 
+<!--"{{ site.baseurl }}/tag/#{{ tag | first | slugify }}"-->
+
 ---
 
 {% for tag in site.tags %}
