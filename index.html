@@ -213,7 +213,7 @@ layout: default
 
 			<figure class="post-thumbnail" itemprop="image">
 
-				<img src="{{ post.image }}" />
+				<img src={{ post.image | prepend: site.baseurl  }}">
 
 			</figure>
 
