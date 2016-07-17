@@ -257,7 +257,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 <div class="tags">
 Tags
 <!--{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
-{% for tag in page.tags %} <div class='tag'><a href="({{ site.baseurl }}{{ "/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+{% for tag in page.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
 </div>
 
 		</main><!-- /#main -->
