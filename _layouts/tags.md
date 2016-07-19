@@ -203,10 +203,10 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
 
 
-<div class="tagcloud">
+<!--<div class="tagcloud">
 <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>
 </div>
-</div>
+</div>-->
 
 
 
