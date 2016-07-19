@@ -199,12 +199,16 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
-<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+<!--<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
 
 <div class="site-footer-area footer-area-footer-widgets"><div id="footer-widgets" class="footer-widgets clearfix columns-3" data-columns="3">
 
 <div id="footer-widgets-container" class="widget-area footer-widgets-container widgets-count-3" data-widgets-count="3">
-<div id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">John Johnson</span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-7">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-6">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link">John Johnson</span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-5">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-4">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-3">Gallery post format</a></li></ul></div><div id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">Tag cloud</h3><div class="tagcloud"><a href='http://themedemos.webmandesign.eu/modern/tag/audio/' class='tag-link-31 tag-link-position-1' title='3 topics' style='font-size: 12.941176470588pt;'>Audio</a>
+
+<div id="recent-comments-2" class="widget widget_recent_comments">-->
+
+<div id="tag_cloud-2" class="widget widget_tag_cloud">
+<h3 class="widget-title">Tag cloud</h3><div class="tagcloud"><a href='http://themedemos.webmandesign.eu/modern/tag/audio/' class='tag-link-31 tag-link-position-1' title='3 topics' style='font-size: 12.941176470588pt;'>Audio</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/comments/' class='tag-link-40 tag-link-position-2' title='2 topics' style='font-size: 10.964705882353pt;'>Comments</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/excerpt/' class='tag-link-42 tag-link-position-3' title='7 topics' style='font-size: 17.882352941176pt;'>Excerpt</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/featured-image/' class='tag-link-46 tag-link-position-4' title='13 topics' style='font-size: 22pt;'>Featured image</a>
