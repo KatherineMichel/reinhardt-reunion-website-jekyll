@@ -17,13 +17,26 @@ url: "https://katherinemichel.github.io/reinhardt-reunion-website-jekyll" # the 
 twitter_username: katimichel
 github_username:  KatherineMichel
 
-# Include additional directory
-# include: ["_gallery"]
+gems:
+  - jekyll-archives
 
-collections:
-  photos:
-    output: true
-    permalink: /photos/:path/
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Build settings
 markdown: kramdown
+
+# Include additional directory
+# include: ["_gallery"]
+
+#collections:
+#  photos:
+#    output: true
+#    permalink: /photos/:path/
