@@ -194,11 +194,10 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}	
-	<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p> 
+	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
+	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></p>
 {% endfor %}
 </ul>
-
-	<p><a class="button" title="Portfolio" href="{{ "/gallery/" | prepend: site.baseurl }}">Visit Gallery</a> or <a class="button" title="Blog" href="{{ "/blog/" | prepend: site.baseurl }}">Visit Blog</a></p>
 
 <!--
 <ul class="tags">
