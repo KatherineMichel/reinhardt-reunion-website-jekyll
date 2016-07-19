@@ -177,6 +177,18 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
+<div id="site-banner" class="site-banner enable-slider">
+
+	<div class="site-banner-inner">
+
+	</div>
+
+</div>
+
+</header>
+
+
+
 
 
 <div id="content" class="site-content">
