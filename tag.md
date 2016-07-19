@@ -5,7 +5,15 @@ permalink: /tag/
 
 ---
 
-Click on a tag to see relevant list of posts.
+<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main clearfix" role="main">
+
+<article id="post-2" class="post-2 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
+
+
+
 
 <ul class="tags">
 {% for tag in site.tags %}
@@ -40,15 +48,13 @@ Click on a tag to see relevant list of posts.
 
 
 
-<div id="content" class="site-content">
 
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main clearfix" role="main">
-
-
-<article id="post-21" class="post-21 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
-
+	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Click on a tag to see relevant list of posts.</h1></header><div class="entry-content" itemprop="description"><p>The Reinhardt</p> 
+	
+	<p><a class="button" title="Portfolio" href="{{ "/gallery/" | prepend: site.baseurl }}">Visit Gallery</a> or <a class="button" title="Blog" href="{{ "/blog/" | prepend: site.baseurl }}">Visit Blog</a></p>
+</div></div>
+</article>
 
 		</main><!-- /#main -->
 	</div><!-- /#primary -->
