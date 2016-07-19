@@ -114,6 +114,12 @@ layout: default
 
 {% for photo in site.photos %}
 
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}				
+				<!--<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>-->
+				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
+{% endfor %}
+
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
 		<div class="entry-media">
