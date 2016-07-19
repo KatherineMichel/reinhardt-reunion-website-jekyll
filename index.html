@@ -110,11 +110,9 @@ layout: default
 
 				</header>
 
-{% for photo in site.photos %}
-
 				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
 
-
+{% for photo in site.photos %}
 
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
@@ -141,10 +139,10 @@ layout: default
 		</div>
 
 </article>
-			
- </div>
 
 {% endfor %}
+			
+ </div>
 
  <div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
 			</section>
@@ -210,10 +208,10 @@ layout: default
 
 				</header>
 
-{% for post in site.posts %}
 				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
 
-<!--{% for post in site.posts %}-->
+{% for post in site.posts %}
+
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
 		<div class="entry-media">
@@ -240,12 +238,10 @@ layout: default
 
 </article>
 			
-<!--{% endfor %}-->
+{% endfor %}
 
  </div>
- 
-{% endfor %}
- 
+
  <div class="archive-link"><a href="{{ "/blog/" | prepend: site.baseurl }}" class="button">All posts</a></div>
 			</section>
 
