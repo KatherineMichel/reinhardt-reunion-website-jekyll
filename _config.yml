@@ -36,7 +36,7 @@ markdown: kramdown
 # Include additional directory
 # include: ["_gallery"]
 
-#collections:
-#  photos:
-#    output: true
-#    permalink: /photos/:path/
+collections:
+  photos:
+    output: true
+    permalink: /photos/:path/
