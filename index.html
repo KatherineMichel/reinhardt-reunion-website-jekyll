@@ -26,6 +26,7 @@ layout: default
 	</div>
 
 </article>
+
 <article data-id="post-159" class="post-159 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-photography jetpack-portfolio-tag-images-2" itemscope itemtype="http://schema.org/WebPage">
 	
 	<div class="site-banner-media">
@@ -46,6 +47,7 @@ layout: default
 	</div>
 
 </article>
+
 <article data-id="post-86" class="post-86 post type-post status-publish format-standard has-post-thumbnail hentry category-standards tag-excerpt tag-featured-image tag-html tag-styles tag-typography" itemscope itemtype="http://schema.org/WebPage">
 
 	<div class="site-banner-media">
@@ -108,9 +110,11 @@ layout: default
 
 				</header>
 
+{% for photo in site.photos %}
+
 				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
 
-{% for photo in site.photos %}
+<!--{% for photo in site.photos %}-->
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
 		<div class="entry-media">
@@ -137,9 +141,11 @@ layout: default
 
 </article>
 			
-{% endfor %}
+<!--{% endfor %}-->
 
  </div>
+ 
+ {% endfor %}
  
  <div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
 			</section>
