@@ -174,6 +174,294 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 </header>
 
+
+
+
+
+
+
+
+---
+layout: default
+---
+
+<div id="site-banner" class="site-banner enable-slider">
+
+	<div class="site-banner-inner">
+
+<article data-id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemtype="http://schema.org/WebPage">
+	
+	<div class="site-banner-media">
+
+		<figure class="site-banner-thumbnail" title="Another Yosemite short movie project" itemprop="image">
+
+			<img width="1440" height="1080" src="images/reinhardt-family-1.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-1.jpg 1920w, images/reinhardt-family-1.jpg 420w, images/reinhardt-family-1.jpg 744w, images/reinhardt-family-1.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
+		</figure>
+
+	</div>
+
+	<div class="site-banner-header">
+
+		<h1 class="entry-title" itemprop="name">
+			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">Welcome to Reinhardt Reunion Website</a>
+		</h1>
+
+	</div>
+
+</article>
+
+<article data-id="post-159" class="post-159 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-photography jetpack-portfolio-tag-images-2" itemscope itemtype="http://schema.org/WebPage">
+	
+	<div class="site-banner-media">
+
+		<figure class="site-banner-thumbnail" title="Cold, wild, stunning" itemprop="image">
+
+			<img width="1440" height="1080" src="images/reinhardt-family-2.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-2.jpg 1920w, images/reinhardt-family-2.jpg 420w, images/reinhardt-family-2.jpg 744w, images/reinhardt-family-2.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
+		</figure>
+
+	</div>
+
+	<div class="site-banner-header">
+
+		<h1 class="entry-title" itemprop="name">
+			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">A Virtual Reunion Site for Family Members</a>
+		</h1>
+
+	</div>
+
+</article>
+
+<article data-id="post-86" class="post-86 post type-post status-publish format-standard has-post-thumbnail hentry category-standards tag-excerpt tag-featured-image tag-html tag-styles tag-typography" itemscope itemtype="http://schema.org/WebPage">
+
+	<div class="site-banner-media">
+
+		<figure class="site-banner-thumbnail" title="Style guide" itemprop="image">
+
+			<img width="1440" height="1080" src="images/reinhardt-family-3.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-3.jpg 1920w, images/reinhardt-family-3.jpg 420w, images/reinhardt-family-3.jpg 744w, images/reinhardt-family-3.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
+		</figure>
+
+	</div>
+	
+	<div class="site-banner-header">
+
+		<h1 class="entry-title" itemprop="name">
+			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">And a Place to Gather Stories and Pictures</a>
+		</h1>
+
+	</div>
+
+</article>
+	</div>
+
+</div>
+
+</header>
+
+<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main clearfix" role="main">
+
+<article id="post-2" class="post-2 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
+
+	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Welcome to the Reinhardt Reunion website!</h1></header><div class="entry-content" itemprop="description"><p>The Reinhardt Reunion website is the companion to the <a title="Reinhardt Reunion Facebook group" href="https://www.facebook.com/groups/1671389859766863" target="_blank">Reinhardt Reunion Facebook group</a>, created for the descendants of Henry and Elizabeth Reinhardt's fourteen children: Olinda (Stenzel), Alvina (Michel), Pauline (Boxberger), Elfreda (Boxberger-Stenzel), Milton, Ella Nora (Eichman), Esther (Krug), Isabel (Eichman), Hattie (Wittman), Arnold, Vera (Hastings-Dawson), Martha (Dumler), Martin, and Marie (Burket).</p> 
+	<p><a class="button" title="Portfolio" href="{{ "/gallery/" | prepend: site.baseurl }}">Visit Gallery</a> or <a class="button" title="Blog" href="{{ "/blog/" | prepend: site.baseurl }}">Visit Blog</a></p>
+</div></div>
+</article>
+
+		</main><!-- /#main -->
+	</div><!-- /#primary -->
+</div><!-- /#content -->
+
+
+
+
+
+			<section class="blog-posts front-page-section">
+
+				<header class="page-header">
+
+					<h1 class="page-title"><a href="{{ "/gallery/" | prepend: site.baseurl }}">Gallery</a></h1>
+
+<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
+
+<!--<h1>Tag Cloud</h1>-->
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+
+				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
+{% endfor %}
+
+
+				</header>
+
+				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
+
+{% for photo in site.photos %}
+
+<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+		<div class="entry-media">
+
+			<figure class="post-thumbnail" itemprop="image">
+
+				<img src="{{ photo.image | prepend: site.baseurl }}">
+
+			</figure>
+
+		</div>
+		
+		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ photo.url | prepend: site.baseurl }}" rel="bookmark">{{ photo.title }}</a></h1></header>
+		
+		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ photo.excerpt | truncatewords:20 }}</p>
+
+<div class="tags">
+Tags
+<!--{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in photo.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+</div></br>
+
+		<div class="link-more"><a href="{{ photo.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
+		</div>
+		</div>
+	
+		<div class="entry-meta"><p>Published: {{ photo.date | date: "%b %-d, %Y" }}</p> 
+		</div>
+		</div>
+
+</article>
+
+{% endfor %}
+			
+ </div>
+
+ <div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
+			</section>
+
+
+
+<!--			<section class="potfolio-posts front-page-section">
+
+				<header class="page-header">
+
+					<h1 class="page-title"><a href="{{ "/gallery/" | prepend: site.baseurl }}">Gallery</a></h1>
+
+<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
+<!--<h1>Tag Cloud</h1>-->
+<!--{% assign tags = site.tags | sort %}
+{% for tag in tags %}				
+				<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
+{% endfor %}
+
+				</header>
+
+{% for photo in photos %}
+				
+<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemtype="http://schema.org/WebPage">
+
+		<div class="entry-media">
+
+			<figure class="post-thumbnail" itemprop="image">
+
+<img src="" />
+
+			</figure>
+
+		</div>
+
+		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href=" " rel="bookmark">{{ photo.title }}</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">{{ photo.text | truncatechars:60 }}</p><br>
+
+		<div class="link-more"><a href=" ">Continue reading<span class="screen-reader-text"> "Style guide"</span></a></div></div>
+	
+		<div class="entry-meta"><p>Published: {{ photo.published_date }}</p> </div></div>
+		</article>
+
+{% endfor %}
+
+</div>
+
+<div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
+			</section>
+-->
+
+			<section class="blog-posts front-page-section">
+
+				<header class="page-header">
+
+					<h1 class="page-title"><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></h1>
+
+<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
+<!--<h1>Tag Cloud</h1>-->
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+
+				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
+{% endfor %}
+
+				</header>
+
+				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
+
+{% for post in site.posts %}
+
+<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+		<div class="entry-media">
+
+			<figure class="post-thumbnail" itemprop="image">
+
+				<!--<img src="{{ post.image | prepend: site.baseurl  }}">-->
+
+			</figure>
+
+		</div>
+		
+		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h1></header>
+		
+		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ post.excerpt | truncatewords:20 }}</p>
+
+<div class="tags">
+Tags
+<!--{% for tag in post.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in post.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+</div></br>
+
+		<div class="link-more"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
+		</div>
+		</div>
+	
+		<div class="entry-meta"><p>Published: {{ post.date | date: "%b %-d, %Y" }}</p> 
+		</div>
+
+		</div>
+
+</article>
+			
+{% endfor %}
+
+ </div>
+
+ <div class="archive-link"><a href="{{ "/blog/" | prepend: site.baseurl }}" class="button">All posts</a></div>
+			</section>
+
+		</main><!-- /#main -->
+	</div><!-- /#primary -->
+</div><!-- /#content -->
+
+
+	</div><!-- /.site-inner -->
+</div><!-- /#page -->
+
+
+
+
+
+
+
+
+
+
+
 <div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
