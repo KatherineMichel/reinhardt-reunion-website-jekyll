@@ -151,7 +151,10 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 <button id="menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false">Menu</button></nav><div class="site-branding"><h1 class="site-title logo type-text"><a href="/reinhardt-reunion-website-jekyll/" title="Modern | WordPress Theme by WebMan"><span class="text-logo">Welcome</span></a></h1><h2 class="site-description"> </h2></div><div class="social-links"><ul id="menu-social-links" class="social-links-items"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/groups/1671389859766863', 'WebMan on Facebook']);" ><span class="screen-reader-text">Reinhardt Reunion on Facebook</span></a></li>
 </ul></div>
 
-    <div id="site-banner" class="site-banner no-slider">
+
+
+
+<div id="site-banner" class="site-banner no-slider">
 
 	<div class="site-banner-inner">
 		
@@ -175,17 +178,6 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 </header>
 
 
-
-
-<div id="site-banner" class="site-banner enable-slider">
-
-	<div class="site-banner-inner">
-
-	</div>
-
-</div>
-
-</header>
 
 
 
