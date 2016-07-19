@@ -21,9 +21,9 @@ github_username:  KatherineMichel
 # include: ["_gallery"]
 
 collections:
-  gallery:
+  photos:
     output: true
-    permalink: /gallery/:path/
+    permalink: /photos/:path/
 
 # Build settings
 markdown: kramdown
