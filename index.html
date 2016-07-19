@@ -108,8 +108,11 @@ layout: default
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
 {% endfor %}
 
-{% for tag in photos.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+
+{% for photo in site.photos %}
+{% for tags in photos.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
 </div></br>
+ {% endfor %}
 
 				</header>
 
