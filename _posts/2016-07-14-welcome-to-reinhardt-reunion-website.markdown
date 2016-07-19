@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Reinhardt Reunion Website!"
 date:   2016-07-14
-tags: welcome
+tags: welcome post
 categories: post
 ---
 
