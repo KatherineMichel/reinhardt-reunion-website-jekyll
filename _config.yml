@@ -18,10 +18,12 @@ twitter_username: katimichel
 github_username:  KatherineMichel
 
 # Include additional directory
-include: ["_photos"]
+# include: ["_gallery"]
 
-# Build settings
-markdown: kramdown
+collections:
+  gallery:
+    output: true
+    permalink: /gallery/:path/
 
 # Build settings
 markdown: kramdown
