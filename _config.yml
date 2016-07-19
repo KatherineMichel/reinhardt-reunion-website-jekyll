@@ -17,6 +17,8 @@ url: "https://katherinemichel.github.io/reinhardt-reunion-website-jekyll" # the 
 twitter_username: katimichel
 github_username:  KatherineMichel
 
+permalink: /:categories/:title/
+
 gems:
   - jekyll-archives
 
@@ -28,7 +30,7 @@ jekyll-archives:
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
-    category: '/category/:name/'
+    # category: '/category/:name/'
 
 # Build settings
 markdown: kramdown
