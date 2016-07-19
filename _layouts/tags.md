@@ -190,12 +190,12 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 <article id="post-2" class="post-2 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
 
-	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Welcome to the Reinhardt Reunion website!</h1></header><div class="entry-content" itemprop="description"><p>
+	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Tag Cloud</h1></header><div class="entry-content" itemprop="description"><p>
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}	
 	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
-	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
+	<!--<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>-->
 
 
 
