@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Image 1"
+title:  "Image"
 image: /images/reinhardt-family-1.jpg 
 caption: Reinhardt Family
 date:   2016-07-14
