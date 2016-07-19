@@ -5,16 +5,6 @@ permalink: /tag/
 
 ---
 
-<div id="content" class="site-content">
-
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main clearfix" role="main">
-
-
-<article id="post-21" class="post-21 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
-
-
 Click on a tag to see relevant list of posts.
 
 <ul class="tags">
@@ -47,6 +37,17 @@ Click on a tag to see relevant list of posts.
 ---
 
 {% endfor %}
+
+
+
+<div id="content" class="site-content">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main clearfix" role="main">
+
+
+<article id="post-21" class="post-21 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
 
 
 		</main><!-- /#main -->
