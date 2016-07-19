@@ -130,6 +130,12 @@ layout: default
 		
 		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ photo.excerpt | truncatewords:20 }}</p>
 
+<div class="tags">
+Tags
+<!--{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in page.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+</div>
+
 		<div class="link-more"><a href="{{ photo.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
 		</div>
 		</div>
