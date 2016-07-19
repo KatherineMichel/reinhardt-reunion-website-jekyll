@@ -109,10 +109,17 @@ layout: default
 {% endfor %}
 
 
+
 {% for photo in site.photos %}
-{% for tag in photos.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+<div class="tags">
+Tags
+<!--{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in photo.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
 </div></br>
- {% endfor %}
+
+{% endfor %}
+
+
 
 				</header>
 
