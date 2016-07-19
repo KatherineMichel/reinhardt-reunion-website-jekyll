@@ -42,8 +42,11 @@ permalink: /gallery/
 		
 				</ul>
 
-{% for photo in site.photos %}
+<!--{% for photo in site.photos %}-->
+
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+{% for photo in site.photos %}
 
 		<div class="entry-media">
 
@@ -67,9 +70,11 @@ permalink: /gallery/
 		</div>
 		</div>
 
+{% endfor %}
+
 </article>
 			
-{% endfor %}
+<!--{% endfor %}-->
 
 		</main><!-- /#main -->
 	</div><!-- /#primary -->
