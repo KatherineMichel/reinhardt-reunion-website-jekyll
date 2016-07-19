@@ -196,21 +196,36 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
   {% assign t = tag | first %}	
 	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
 	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
+
+
+
+<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+
+<div class="site-footer-area footer-area-footer-widgets"><div id="footer-widgets" class="footer-widgets clearfix columns-3" data-columns="3">
+
+<div id="footer-widgets-container" class="widget-area footer-widgets-container widgets-count-3" data-widgets-count="3">
+<div id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">John Johnson</span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-7">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-6">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link">John Johnson</span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-5">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-4">Gallery post format</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.webmandesign.eu' rel='external nofollow' class='url'>WebMan</a></span> on <a href="http://themedemos.webmandesign.eu/modern/gallery/comment-page-1/#comment-3">Gallery post format</a></li></ul></div><div id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">Tag cloud</h3><div class="tagcloud"><a href='http://themedemos.webmandesign.eu/modern/tag/audio/' class='tag-link-31 tag-link-position-1' title='3 topics' style='font-size: 12.941176470588pt;'>Audio</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/comments/' class='tag-link-40 tag-link-position-2' title='2 topics' style='font-size: 10.964705882353pt;'>Comments</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/excerpt/' class='tag-link-42 tag-link-position-3' title='7 topics' style='font-size: 17.882352941176pt;'>Excerpt</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/featured-image/' class='tag-link-46 tag-link-position-4' title='13 topics' style='font-size: 22pt;'>Featured image</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/gallery-2/' class='tag-link-28 tag-link-position-5' title='1 topic' style='font-size: 8pt;'>Gallery</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/html/' class='tag-link-34 tag-link-position-6' title='1 topic' style='font-size: 8pt;'>HTML</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/image/' class='tag-link-30 tag-link-position-7' title='2 topics' style='font-size: 10.964705882353pt;'>Image</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/link/' class='tag-link-27 tag-link-position-8' title='1 topic' style='font-size: 8pt;'>Link</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/more-tag/' class='tag-link-32 tag-link-position-9' title='1 topic' style='font-size: 8pt;'>More tag</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/no-excerpt/' class='tag-link-45 tag-link-position-10' title='8 topics' style='font-size: 18.705882352941pt;'>No excerpt</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/no-image/' class='tag-link-33 tag-link-position-11' title='5 topics' style='font-size: 15.905882352941pt;'>No image</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/no-title/' class='tag-link-43 tag-link-position-12' title='3 topics' style='font-size: 12.941176470588pt;'>No title</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/paginated/' class='tag-link-14 tag-link-position-13' title='1 topic' style='font-size: 8pt;'>Paginated</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/parted/' class='tag-link-13 tag-link-position-14' title='1 topic' style='font-size: 8pt;'>Parted</a>
+<a href='http://themedemos.webmandesign.eu/modern/tag/vimeo/' class='tag-link-39 tag-link-position-24' title='1 topic' style='font-size: 8pt;'>Vimeo</a></div>
+</div>
+
+
+
+
 {% endfor %}
 </ul>
-
-
-
-
-
-<!--
-<ul class="tags">
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  <li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
-{% endfor %}
-</ul>
--->
 
 </div></div>
 </article>
@@ -218,6 +233,13 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 		</main><!-- /#main -->
 	</div><!-- /#primary -->
 </div><!-- /#content -->
+
+
+
+
+
+
+
 
 
 
