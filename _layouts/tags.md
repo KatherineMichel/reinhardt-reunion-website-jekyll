@@ -192,15 +192,17 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Tag Cloud</h1></header><div class="entry-content" itemprop="description"><p>
 
+
+<div id="tag_cloud-2" class="widget widget_tag_cloud">
+<h3 class="widget-title">Tag cloud</h3>
+
+
 {% for tag in site.tags %}
   {% assign t = tag | first %}	
 	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
 	<!--<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>-->
 
 
-
-<div id="tag_cloud-2" class="widget widget_tag_cloud">
-<h3 class="widget-title">Tag cloud</h3>
 <div class="tagcloud">
 <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>
 </div>
