@@ -192,24 +192,10 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Tag Cloud</h1></header>
 	
-
-<!--<div id="tag_cloud-2" class="widget widget_tag_cloud">
-<h3 class="widget-title">Tag cloud</h3>-->
-
-
 {% for tag in site.tags %}
   {% assign t = tag | first %}	
 	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
 	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
-
-
-<!--<div class="tagcloud">
-<a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>
-</div>
-</div>-->
-
-
-
 
 {% endfor %}
 </ul>
@@ -222,6 +208,27 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 </div><!-- /#content -->
 
 
+
+
+			<section class="blog-posts front-page-section">
+
+				<header class="page-header">
+
+					<h1 class="page-title"><a href="{{ "/gallery/" | prepend: site.baseurl }}">Tags</a></h1>
+
+<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
+
+{% for tag in site.tags %}
+{% assign t = tag | first %}	
+
+				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a></li>
+{% endfor %}
+
+</div>
+
+				</header>
+
+			</section>
 
 
 
