@@ -179,84 +179,6 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
-
-
----
-layout: default
----
-
-<div id="site-banner" class="site-banner enable-slider">
-
-	<div class="site-banner-inner">
-
-<article data-id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemtype="http://schema.org/WebPage">
-	
-	<div class="site-banner-media">
-
-		<figure class="site-banner-thumbnail" title="Another Yosemite short movie project" itemprop="image">
-
-			<img width="1440" height="1080" src="images/reinhardt-family-1.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-1.jpg 1920w, images/reinhardt-family-1.jpg 420w, images/reinhardt-family-1.jpg 744w, images/reinhardt-family-1.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
-		</figure>
-
-	</div>
-
-	<div class="site-banner-header">
-
-		<h1 class="entry-title" itemprop="name">
-			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">Welcome to Reinhardt Reunion Website</a>
-		</h1>
-
-	</div>
-
-</article>
-
-<article data-id="post-159" class="post-159 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-photography jetpack-portfolio-tag-images-2" itemscope itemtype="http://schema.org/WebPage">
-	
-	<div class="site-banner-media">
-
-		<figure class="site-banner-thumbnail" title="Cold, wild, stunning" itemprop="image">
-
-			<img width="1440" height="1080" src="images/reinhardt-family-2.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-2.jpg 1920w, images/reinhardt-family-2.jpg 420w, images/reinhardt-family-2.jpg 744w, images/reinhardt-family-2.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
-		</figure>
-
-	</div>
-
-	<div class="site-banner-header">
-
-		<h1 class="entry-title" itemprop="name">
-			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">A Virtual Reunion Site for Family Members</a>
-		</h1>
-
-	</div>
-
-</article>
-
-<article data-id="post-86" class="post-86 post type-post status-publish format-standard has-post-thumbnail hentry category-standards tag-excerpt tag-featured-image tag-html tag-styles tag-typography" itemscope itemtype="http://schema.org/WebPage">
-
-	<div class="site-banner-media">
-
-		<figure class="site-banner-thumbnail" title="Style guide" itemprop="image">
-
-			<img width="1440" height="1080" src="images/reinhardt-family-3.jpg" class="attachment-modern_banner size-modern_banner wp-post-image" alt="awhCbhLqRceCdjcPQUnn_IMG_0249" srcset="images/reinhardt-family-3.jpg 1920w, images/reinhardt-family-3.jpg 420w, images/reinhardt-family-3.jpg 744w, images/reinhardt-family-3.jpg 1200w" sizes="(max-width: 1440px) 100vw, 1440px" />
-		</figure>
-
-	</div>
-	
-	<div class="site-banner-header">
-
-		<h1 class="entry-title" itemprop="name">
-			<a href="{{ "/" | prepend: site.baseurl }}" rel="bookmark">And a Place to Gather Stories and Pictures</a>
-		</h1>
-
-	</div>
-
-</article>
-	</div>
-
-</div>
-
-</header>
-
 <div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
@@ -337,52 +259,6 @@ Tags
 
  <div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
 			</section>
-
-
-
-<!--			<section class="potfolio-posts front-page-section">
-
-				<header class="page-header">
-
-					<h1 class="page-title"><a href="{{ "/gallery/" | prepend: site.baseurl }}">Gallery</a></h1>
-
-<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
-<!--<h1>Tag Cloud</h1>-->
-<!--{% assign tags = site.tags | sort %}
-{% for tag in tags %}				
-				<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
-{% endfor %}
-
-				</header>
-
-{% for photo in photos %}
-				
-<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemtype="http://schema.org/WebPage">
-
-		<div class="entry-media">
-
-			<figure class="post-thumbnail" itemprop="image">
-
-<img src="" />
-
-			</figure>
-
-		</div>
-
-		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href=" " rel="bookmark">{{ photo.title }}</a></h1></header><div class="entry-content" itemprop="description"><p class="post-excerpt">{{ photo.text | truncatechars:60 }}</p><br>
-
-		<div class="link-more"><a href=" ">Continue reading<span class="screen-reader-text"> "Style guide"</span></a></div></div>
-	
-		<div class="entry-meta"><p>Published: {{ photo.published_date }}</p> </div></div>
-		</article>
-
-{% endfor %}
-
-</div>
-
-<div class="archive-link"><a href="{{ "/gallery/" | prepend: site.baseurl }}" class="button">All photos</a></div>
-			</section>
--->
 
 			<section class="blog-posts front-page-section">
 
