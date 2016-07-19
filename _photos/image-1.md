@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 title:  "Reinhardt Family!"
 image: /images/reinhardt-family-1.jpg 
 caption: Reinhardt Family
