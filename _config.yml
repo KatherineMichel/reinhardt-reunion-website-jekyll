@@ -23,7 +23,6 @@ github_username:  KatherineMichel
 collections:
   photos:
     output: true
-    permalink: /photos/:path/
 
 # Build settings
 markdown: kramdown
