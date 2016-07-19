@@ -14,35 +14,11 @@ Click on a tag to see relevant list of posts.
 {% endfor %}
 </ul>
 
-
-<ul class="tags">
-{% for tag in photo.tags %}
-  {% assign t = tag | first %}
-  <li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
-{% endfor %}
-</ul>
-
 <!--"{{ site.baseurl }}/tag/#{{ tag | first | slugify }}"-->
 
 ---
 
 {% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-
-<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
-<ul>
-{% for post in posts %}
-  {% if post.tags contains t %}
-  <li>
-    <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-  </li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-{% for tag in photo.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
