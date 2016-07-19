@@ -103,7 +103,6 @@ layout: default
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 <!--<h1>Tag Cloud</h1>-->
 {% assign tags = site.tags | sort %}
-{% for photos in site.tags.photos %}
 {% for tag in tags %}				
 				<!--<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>-->
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
@@ -203,7 +202,8 @@ layout: default
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 <!--<h1>Tag Cloud</h1>-->
 {% assign tags = site.tags | sort %}
-{% for tag in tags %}				
+{% for tag in tags %}
+{% for posts in site.tags.photo %}
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
 {% endfor %}
 
