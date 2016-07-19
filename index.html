@@ -235,6 +235,12 @@ Tags
 		
 		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ post.excerpt | truncatewords:20 }}</p>
 
+<div class="tags">
+Tags
+<!--{% for tag in post.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in post.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+</div>
+
 		<div class="link-more"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
 		</div>
 		</div>
