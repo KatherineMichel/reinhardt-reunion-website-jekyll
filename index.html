@@ -110,28 +110,28 @@ layout: default
 
 				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
 
-{% for post in site.posts %}
+{% for photo in site.photos %}
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
 		<div class="entry-media">
 
 			<figure class="post-thumbnail" itemprop="image">
 
-				<img src="{{ post.image | prepend: site.baseurl }}">
+				<img src="{{ photo.image | prepend: site.baseurl }}">
 
 			</figure>
 
 		</div>
 		
-		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h1></header>
+		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ photo.url | prepend: site.baseurl }}" rel="bookmark">{{ photo.title }}</a></h1></header>
 		
-		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ post.excerpt | truncatewords:20 }}</p>
+		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ photo.excerpt | truncatewords:20 }}</p>
 
-		<div class="link-more"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
+		<div class="link-more"><a href="{{ photo.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
 		</div>
 		</div>
 	
-		<div class="entry-meta"><p>Published: {{ post.date | date: "%b %-d, %Y" }}</p> 
+		<div class="entry-meta"><p>Published: {{ photo.date | date: "%b %-d, %Y" }}</p> 
 		</div>
 		</div>
 
