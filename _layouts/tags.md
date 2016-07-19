@@ -182,7 +182,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
-
+<!--
 <div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
@@ -194,7 +194,6 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 	
 {% for tag in site.tags %}
   {% assign t = tag | first %}	
-	<!--<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p>--> 
 	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
 
 {% endfor %}
@@ -203,9 +202,9 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 </div></div>
 </article>
 
-		</main><!-- /#main -->
-	</div><!-- /#primary -->
-</div><!-- /#content -->
+		<!--</main><!-- /#main -->
+	<!--</div><!-- /#primary -->
+<!--</div><!-- /#content -->
 
 
 
