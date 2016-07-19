@@ -102,7 +102,7 @@ layout: default
 
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 <!--<h1>Tag Cloud</h1>-->
-{% assign tags = photo.tags | sort %}
+{% assign tags = site.tags.photos | sort %}
 {% for tag in tags %}				
 				<!--<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>-->
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
@@ -114,7 +114,7 @@ layout: default
 
 {% for photo in site.photos %}
 
-{% assign tags = photo.tags | sort %}
+{% assign tags = site.tags.photos | sort %}
 {% for tag in tags %}				
 				<!--<li class="link-all"><a href="/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>-->
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
