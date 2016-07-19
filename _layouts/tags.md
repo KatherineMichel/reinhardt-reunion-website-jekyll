@@ -190,14 +190,67 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 <article id="post-2" class="post-2 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
 
-	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Welcome to the Reinhardt Reunion website!</h1></header><div class="entry-content" itemprop="description"><p>The Reinhardt Reunion website is the companion to the <a title="Reinhardt Reunion Facebook group" href="https://www.facebook.com/groups/1671389859766863" target="_blank">Reinhardt Reunion Facebook group</a>, created for the descendants of Henry and Elizabeth Reinhardt's fourteen children: Olinda (Stenzel), Alvina (Michel), Pauline (Boxberger), Elfreda (Boxberger-Stenzel), Milton, Ella Nora (Eichman), Esther (Krug), Isabel (Eichman), Hattie (Wittman), Arnold, Vera (Hastings-Dawson), Martha (Dumler), Martin, and Marie (Burket).</p> 
+	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Welcome to the Reinhardt Reunion website!</h1></header><div class="entry-content" itemprop="description"><p>
+
+{% for tag in site.tags %}
+  {% assign t = tag | first %}	
+	<p><li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li></p> 
+{% endfor %}
+</ul>
+
 	<p><a class="button" title="Portfolio" href="{{ "/gallery/" | prepend: site.baseurl }}">Visit Gallery</a> or <a class="button" title="Blog" href="{{ "/blog/" | prepend: site.baseurl }}">Visit Blog</a></p>
+
+<!--
+<ul class="tags">
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  <li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
+{% endfor %}
+</ul>
+-->
+
 </div></div>
 </article>
 
 		</main><!-- /#main -->
 	</div><!-- /#primary -->
 </div><!-- /#content -->
+
+
+
+
+<ul class="tags">
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  <li><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
+{% endfor %}
+</ul>
+
+<!--"{{ site.baseurl }}/tag/#{{ tag | first | slugify }}"-->
+
+---
+
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+
+<h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>
+<ul>
+
+{% for post in posts %}
+  {% if post.tags contains t %}
+  <li>
+    <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+---
+
+{% endfor %}
+
 
 
 
