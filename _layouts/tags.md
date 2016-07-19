@@ -152,6 +152,8 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 </ul></div>
 
 
+
+
     <div id="site-banner" class="site-banner no-slider">
 
 	<div class="site-banner-inner">
@@ -185,7 +187,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 		<header class="page-header">
 
-			<h1 class="page-title">Blog</h1></header>
+			<h1 class="page-title">Tags</h1></header>
 
 				<div id="posts" class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type"><li class="link-all">
 		
@@ -226,6 +228,9 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 	</div><!-- /.site-inner -->
 </div><!-- /#page -->
+
+
+
 
 
 
