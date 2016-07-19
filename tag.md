@@ -4,6 +4,33 @@ title: Blog Posts by Tag
 permalink: /tag/
 ---
 
+<body id="top" class="downscroll-enabled home is-singular page page-id-2 page-template page-template-_front page-template-page-template page-template-page-template_front-php">
+
+<div id="page" class="hfeed site">
+	<div class="site-inner">
+
+<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+
+<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"><span class="screen-reader-text">Modern site navigation</span><a class="skip-link screen-reader-text" href="#content">Skip to content</a><div class="main-navigation-inner"><div class="menu"><ul><li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-14 active-menu-item"><a href="/reinhardt-reunion-website-jekyll/">Home</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/reinhardt-reunion-website-jekyll/gallery/">Gallery</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/reinhardt-reunion-website-jekyll/blog/">Blog</span></a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank">Facebook</span></a></li>
+<!--<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/admin" target="_blank">Admin</a></li>-->
+</ul></div>
+
+<!--<div id="nav-search-form" class="nav-search-form"><a href="#" id="search-toggle" class="search-toggle"><span class="screen-reader-text">Search</span></a>
+<form method="get" class="form-search" action="http://themedemos.webmandesign.eu/modern/">
+	<label for="search-field" class="screen-reader-text">Search</label>
+	<input type="search" value="" placeholder="Search field: type and press enter" name="s" class="search-field" id="search-field" />
+</form></div>-->
+
+</div>
+
+<button id="menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false">Menu</button></nav><div class="site-branding"><h1 class="site-title logo type-text"><a href="/reinhardt-reunion-website-jekyll/" title="Modern | WordPress Theme by WebMan"><span class="text-logo">Welcome</span></a></h1><h2 class="site-description"> </h2></div><div class="social-links"><ul id="menu-social-links" class="social-links-items"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/groups/1671389859766863', 'WebMan on Facebook']);" ><span class="screen-reader-text">Reinhardt Reunion on Facebook</span></a></li>
+</ul></div>
+
+
+
 
 <ul class="tags">
 {% for tag in site.tags %}
@@ -39,30 +66,6 @@ permalink: /tag/
 
 
 
-<body id="top" class="downscroll-enabled home is-singular page page-id-2 page-template page-template-_front page-template-page-template page-template-page-template_front-php">
-
-<div id="page" class="hfeed site">
-	<div class="site-inner">
-
-<header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"><span class="screen-reader-text">Modern site navigation</span><a class="skip-link screen-reader-text" href="#content">Skip to content</a><div class="main-navigation-inner"><div class="menu"><ul><li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-14 active-menu-item"><a href="/reinhardt-reunion-website-jekyll/">Home</a></li>
-<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/reinhardt-reunion-website-jekyll/gallery/">Gallery</a></li>
-<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/reinhardt-reunion-website-jekyll/blog/">Blog</span></a></li>
-<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank">Facebook</span></a></li>
-<!--<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="/admin" target="_blank">Admin</a></li>-->
-</ul></div>
-
-<!--<div id="nav-search-form" class="nav-search-form"><a href="#" id="search-toggle" class="search-toggle"><span class="screen-reader-text">Search</span></a>
-<form method="get" class="form-search" action="http://themedemos.webmandesign.eu/modern/">
-	<label for="search-field" class="screen-reader-text">Search</label>
-	<input type="search" value="" placeholder="Search field: type and press enter" name="s" class="search-field" id="search-field" />
-</form></div>-->
-
-</div>
-
-<button id="menu-toggle" class="menu-toggle" aria-controls="site-navigation" aria-expanded="false">Menu</button></nav><div class="site-branding"><h1 class="site-title logo type-text"><a href="/reinhardt-reunion-website-jekyll/" title="Modern | WordPress Theme by WebMan"><span class="text-logo">Welcome</span></a></h1><h2 class="site-description"> </h2></div><div class="social-links"><ul id="menu-social-links" class="social-links-items"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/groups/1671389859766863', 'WebMan on Facebook']);" ><span class="screen-reader-text">Reinhardt Reunion on Facebook</span></a></li>
-</ul></div>
 
 
     <div id="site-banner" class="site-banner no-slider">
