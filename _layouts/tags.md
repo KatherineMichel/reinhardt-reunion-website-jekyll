@@ -261,6 +261,8 @@ Tags
 
  </div>
 
+ <div class="archive-link"><a href="{{ "/tags#" | prepend: site.baseurl }}" class="button">Back to top</a></div>
+
 			</section>
 
 {% endfor %}
