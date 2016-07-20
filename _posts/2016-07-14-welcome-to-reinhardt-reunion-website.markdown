@@ -2,7 +2,8 @@
 layout: post
 title:  "Welcome to Reinhardt Reunion Website!"
 date:   2016-07-14
-tags: welcome post
+image: /images/reinhardt-family-1.jpg 
+tags: post welcome
 categories: post
 ---
 
