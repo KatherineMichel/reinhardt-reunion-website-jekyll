@@ -450,44 +450,11 @@ Tags
 </div>
 </div>
 
-<!--
-<div id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">Thank You!</h3><div class="tagcloud">
-	
-<a href='http://themedemos.webmandesign.eu/modern/tag/audio/' class='tag-link-31 tag-link-position-1' title='3 topics' style='font-size: 12.941176470588pt;'>Audio</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/comments/' class='tag-link-40 tag-link-position-2' title='2 topics' style='font-size: 10.964705882353pt;'>Comments</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/excerpt/' class='tag-link-42 tag-link-position-3' title='7 topics' style='font-size: 17.882352941176pt;'>Excerpt</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/featured-image/' class='tag-link-46 tag-link-position-4' title='13 topics' style='font-size: 22pt;'>Featured image</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/gallery-2/' class='tag-link-28 tag-link-position-5' title='1 topic' style='font-size: 8pt;'>Gallery</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/html/' class='tag-link-34 tag-link-position-6' title='1 topic' style='font-size: 8pt;'>HTML</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/vimeo/' class='tag-link-39 tag-link-position-24' title='1 topic' style='font-size: 8pt;'>Vimeo</a></div>
+<!--</div>
 
-				<!--<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type"><li class="link-all">
-					<a href="http://themedemos.webmandesign.eu/modern/portfolio/">All photos</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/illustration/">Vintage</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/movies/">Modern</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Henry and Elizabeth Reinhardt and Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Olinda Reinhardt-Stenzel Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Alvina Reinhardt-Michel Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Pauline Reinhardt-Boxberger Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Elfreda Reinhardt-Boxberger-Stenzel Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Milton Reinhardt Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Ella Nora Reinhardt-Eichman Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Esther Reinhardt-Krug Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Isabel Reinhardt-Eichman Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Hattie Reinhardt-Wittman Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Arnold Reinhardt Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Vera Reinhardt-Hastings-Dawson Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Martha Reinhardt-Dumler Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Martin Reinhardt Family</a></li>
-					<li><a href="http://themedemos.webmandesign.eu/modern/project-type/photography/">Marie Reinhardt-Burket Family</a></li>				
-				</ul>
+</div></div>-->
 
-</div>
--->
-
-</div>
-
-</div></div><div class="site-footer-area footer-area-site-info"><div class="site-info-container"><div class="site-info" role="contentinfo">&copy; 2016, Some Rights Reserved. Jekyll Development by <a href="https://katherinemichel.github.io" target="_blank">Katherine Michel</a>, Design Adapted from <a href="http://themedemos.webmandesign.eu/modern/"  target="_blank" title="Modern">Modern</a> WordPress Theme by <a href="http://www.webmandesign.eu" target="_blank">WebMan Design</a>. </div>
+<div class="site-footer-area footer-area-site-info"><div class="site-info-container"><div class="site-info" role="contentinfo">&copy; 2016, Some Rights Reserved. Jekyll Development by <a href="https://katherinemichel.github.io" target="_blank">Katherine Michel</a>, Design Adapted from <a href="http://themedemos.webmandesign.eu/modern/"  target="_blank" title="Modern">Modern</a> WordPress Theme by <a href="http://www.webmandesign.eu" target="_blank">WebMan Design</a>. </div>
 
 <div class="social-links"><ul id="menu-social-links" class="social-links-items"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://www.facebook.com/groups/1671389859766863" target="_blank" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/groups/1671389859766863', 'Reinhardt Reunion on Facebook']);"><span class="screen-reader-text">Reinhardt Reunion on Facebook</span></a></li>
 </ul></div>
