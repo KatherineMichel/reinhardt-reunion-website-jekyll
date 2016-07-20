@@ -184,16 +184,14 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 					<h1 class="page-title"><a href="{{ "/tag/" | prepend: site.baseurl }}">Tags</a></h1>
 
 
-
-
-
-
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 
 {% for tag in site.tags %}
 {% assign t = tag | first %}	
 
 				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a></li>
+
+{% endfor %}
 
 </div>
 
@@ -281,8 +279,6 @@ Tags
 
 
 </article>
-
-{% endfor %}
 
 {% endfor %}
 			
