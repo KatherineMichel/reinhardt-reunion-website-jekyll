@@ -209,16 +209,23 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 			<section class="blog-posts front-page-section">
 
-				<header class="page-header">
-
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
+
+				<header class="page-header">
+
+<!--{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}-->
 
 <!--
 <h4><a name="{{t | downcase | replace:" ","-" }}"></a><a class="internal" href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h4>-->
 
 					<h1 class="page-title"><a name="{{t | downcase | replace:" ","-" }}"></a><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h1>
+
+{% for post in posts %}
+  {% if post.tags contains t %}
 
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 
@@ -229,9 +236,6 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 <ul>
-
-{% for post in posts %}
-  {% if post.tags contains t %}
 
   <!--<li>
     <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
@@ -280,10 +284,9 @@ Tags
 
 </article>
 
-{% endfor %}
-			
  </div>
 
+{% endfor %}
 
 			</section>
 
