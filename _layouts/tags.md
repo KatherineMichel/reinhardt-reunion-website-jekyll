@@ -317,7 +317,7 @@ Tags
 
 			<figure class="post-thumbnail" itemprop="image">
 
-				<img src="{{ post.image | prepend: site.baseurl }}">
+				<!--<img src="{{ post.image | prepend: site.baseurl }}">-->
 
 			</figure>
 
