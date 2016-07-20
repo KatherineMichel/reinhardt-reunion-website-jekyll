@@ -224,8 +224,8 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 					<h1 class="page-title"><a name="{{t | downcase | replace:" ","-" }}"></a><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h1>
 
-{% for post in posts %}
-  {% if post.tags contains t %}
+<!--{% for post in posts %}
+  {% if post.tags contains t %}-->
 
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 
@@ -245,7 +245,9 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
-
+{% for post in posts %}
+  {% if post.tags contains t %}
+  
 <article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
 		<div class="entry-media">
