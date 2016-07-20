@@ -188,7 +188,7 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 				<header class="page-header">
 
-					<h1 class="page-title"><a href="{{ "/gallery/" | prepend: site.baseurl }}">Tags</a></h1>
+					<h1 class="page-title"><a href="{{ "/tag/" | prepend: site.baseurl }}">Tags</a></h1>
 
 <div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
 
@@ -296,73 +296,12 @@ Tags
 
 
 
-			<section class="blog-posts front-page-section">
-
-				<header class="page-header">
-
-					<h1 class="page-title"><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></h1>
-
-<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
-<!--<h1>Tag Cloud</h1>-->
-{% assign tags = site.tags | sort %}
-{% for tag in tags %}
-
-				<li class="link-all"><a href="{{ site.baseurl }}/tag/#{{ tag | first | slugify }}" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a></li>
-{% endfor %}
-
-				</header>
-
-				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
-
-{% for post in site.posts %}
-
-<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-
-		<div class="entry-media">
-
-			<figure class="post-thumbnail" itemprop="image">
-
-				<!--<img src="{{ post.image | prepend: site.baseurl  }}">-->
-
-			</figure>
-
-		</div>
-		
-		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h1></header>
-		
-		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ post.excerpt | truncatewords:20 }}</p>
-
-<div class="tags">
-Tags
-<!--{% for tag in post.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
-{% for tag in post.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
-</div></br>
-
-		<div class="link-more"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
-		</div>
-		</div>
-	
-		<div class="entry-meta"><p>Published: {{ post.date | date: "%b %-d, %Y" }}</p> 
-		</div>
-
-		</div>
-
-</article>
-			
-{% endfor %}
-
- </div>
-
- <div class="archive-link"><a href="{{ "/blog/" | prepend: site.baseurl }}" class="button">All posts</a></div>
-			</section>
-
-		</main><!-- /#main -->
-	</div><!-- /#primary -->
-</div><!-- /#content -->
 
 
-	</div><!-- /.site-inner -->
-</div><!-- /#page -->
+
+
+
+
 
 
 
