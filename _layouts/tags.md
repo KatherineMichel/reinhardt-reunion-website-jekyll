@@ -229,7 +229,11 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 			<figure class="post-thumbnail" itemprop="image">
 
-				<!--<img src="{{ post.image | prepend: site.baseurl  }}">-->
+			{% if post.image %}
+			{% for image in post.image %}
+				<img src="{{ post.image | prepend: site.baseurl  }}">
+			{% endfor %}
+			{% endif %}
 
 			</figure>
 
