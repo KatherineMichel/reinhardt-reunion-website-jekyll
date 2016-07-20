@@ -204,6 +204,69 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+
+			<section class="blog-posts front-page-section">
+
+				<header class="page-header">
+
+					<h1 class="page-title"><a name="{{t | downcase | replace:" ","-" }}"></a><a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></h1>
+
+<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type">
+
+				</header>
+
+				<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList">
+
+{% for post in posts %}
+  {% if post.tags contains t %}
+
+<article id="post-160" class="post-160 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-movies jetpack-portfolio-tag-films jetpack-portfolio-tag-movies-2" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+
+		<div class="entry-media">
+
+			<figure class="post-thumbnail" itemprop="image">
+
+				<!--<img src="{{ post.image | prepend: site.baseurl  }}">-->
+
+			</figure>
+
+		</div>
+		
+		<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a></h1></header>
+		
+		<div class="entry-content" itemprop="description"><p class="post-excerpt">{{ post.excerpt | truncatewords:20 }}</p>
+
+<div class="tags">
+Tags
+<!--{% for tag in post.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}-->
+{% for tag in post.tags %} <div class='tag'><a href="{{ site.baseurl }}/tag/#{{tag}}" }}">{{tag}}</a></div> {% endfor %}
+</div></br>
+
+		<div class="link-more"><a href="{{ post.url | prepend: site.baseurl }}">Continue reading<span class="screen-reader-text"> "Style guide"</span></a>
+		</div>
+		</div>
+	
+		<div class="entry-meta"><p>Published: {{ post.date | date: "%b %-d, %Y" }}</p> 
+		</div>
+
+		</div>
+
+</article>
+
+  {% endif %}			
+{% endfor %}
+
+ </div>
+
+			</section>
+
+{% endfor %}
+
+
+
 
 
 
@@ -396,23 +459,6 @@ Tags
 <a href='http://themedemos.webmandesign.eu/modern/tag/featured-image/' class='tag-link-46 tag-link-position-4' title='13 topics' style='font-size: 22pt;'>Featured image</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/gallery-2/' class='tag-link-28 tag-link-position-5' title='1 topic' style='font-size: 8pt;'>Gallery</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/html/' class='tag-link-34 tag-link-position-6' title='1 topic' style='font-size: 8pt;'>HTML</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/image/' class='tag-link-30 tag-link-position-7' title='2 topics' style='font-size: 10.964705882353pt;'>Image</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/link/' class='tag-link-27 tag-link-position-8' title='1 topic' style='font-size: 8pt;'>Link</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/more-tag/' class='tag-link-32 tag-link-position-9' title='1 topic' style='font-size: 8pt;'>More tag</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/no-excerpt/' class='tag-link-45 tag-link-position-10' title='8 topics' style='font-size: 18.705882352941pt;'>No excerpt</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/no-image/' class='tag-link-33 tag-link-position-11' title='5 topics' style='font-size: 15.905882352941pt;'>No image</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/no-title/' class='tag-link-43 tag-link-position-12' title='3 topics' style='font-size: 12.941176470588pt;'>No title</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/paginated/' class='tag-link-14 tag-link-position-13' title='1 topic' style='font-size: 8pt;'>Paginated</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/parted/' class='tag-link-13 tag-link-position-14' title='1 topic' style='font-size: 8pt;'>Parted</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/post-format/' class='tag-link-26 tag-link-position-15' title='12 topics' style='font-size: 21.341176470588pt;'>Post format</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/quote/' class='tag-link-37 tag-link-position-16' title='1 topic' style='font-size: 8pt;'>Quote</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/self-hosted/' class='tag-link-48 tag-link-position-17' title='4 topics' style='font-size: 14.588235294118pt;'>Self hosted</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/slideshow/' class='tag-link-44 tag-link-position-18' title='1 topic' style='font-size: 8pt;'>Slideshow</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/soundcloud/' class='tag-link-41 tag-link-position-19' title='1 topic' style='font-size: 8pt;'>SoundCloud</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/status/' class='tag-link-29 tag-link-position-20' title='1 topic' style='font-size: 8pt;'>Status</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/styles/' class='tag-link-35 tag-link-position-21' title='1 topic' style='font-size: 8pt;'>Styles</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/typography/' class='tag-link-36 tag-link-position-22' title='1 topic' style='font-size: 8pt;'>Typography</a>
-<a href='http://themedemos.webmandesign.eu/modern/tag/video/' class='tag-link-38 tag-link-position-23' title='3 topics' style='font-size: 12.941176470588pt;'>Video</a>
 <a href='http://themedemos.webmandesign.eu/modern/tag/vimeo/' class='tag-link-39 tag-link-position-24' title='1 topic' style='font-size: 8pt;'>Vimeo</a></div>
 
 				<!--<div class="posts posts-list clearfix" itemscope itemtype="http://schema.org/ItemList"><ul class="taxonomy-links taxonomy-jetpack-portfolio-type"><li class="link-all">
