@@ -182,31 +182,6 @@ var zilla_likes = {"ajaxurl":"https:\/\/themedemos.webmandesign.eu\/modern\/wp-a
 
 
 
-<!--
-<div id="content" class="site-content">
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main clearfix" role="main">
-
-<article id="post-2" class="post-2 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
-
-	<div class="entry-inner"><header class="entry-header"><h1 itemprop="name">Tag Cloud</h1></header>
-	
-{% for tag in site.tags %}
-  {% assign t = tag | first %}	
-	<p><a class="button" title="Portfolio" <a href="{{ site.baseurl }}/tag/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }} </a>  </p>
-
-{% endfor %}
-</ul>
-
-</div></div>
-</article>
-
-		<!--</main><!-- /#main -->
-	<!--</div><!-- /#primary -->
-<!--</div><!-- /#content -->
-
-
 
 
 			<section class="blog-posts front-page-section">
